@@ -1,7 +1,15 @@
+.container {
+	width: 100%;
+	padding: 0px;
+}
+
 #one {
 	padding-top: 20px;
+	
+	height: auto;
 }
 
 #two {
-	padding-top: 5px;
+	padding-top: 20px;
+	height: auto;
 }
