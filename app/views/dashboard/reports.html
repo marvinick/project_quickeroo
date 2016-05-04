@@ -1,11 +1,39 @@
 <div>
 	<a ui-sref="overview" class="pull-right btn btn-primary btn-outline btn-rounded">Back to Overview</a>
-	<h2>Reports <small>Work with Chart.js and D3</small></h2>
+	<h2>Profile <small>Keep it simple and concise</small></h2>
 	<span class="glyphicon glyphicon-dashboard bg-fade"></span>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Add Charts here</h1>
-			<p>You can use C3.js or Chart.js</p>
+			<h1>Add your data here</h1>
+			<div class="login-page">
+				<div class="row">
+					<div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">
+						<form role="form" ng-submit="submit()">
+
+							<div class="form-content">
+								<div class="form-group">
+									<input type="text" class="form-control input-underline input-lg" id="" placeholder="Name">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-underline input-lg" id="" placeholder="Contact">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-underline input-lg" id="" placeholder="Skills">
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-underline input-lg" id="" placeholder="Experience">
+								</div>
+							</div>
+
+							<button type="submit" class="btn btn-white btn-outline btn-lg btn-rounded">Submit</button>
+
+						</form>
+
+					</div>	
+				</div>
+
+			</div>
+
 			<p>
 				<a class="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a>
 			</p>
