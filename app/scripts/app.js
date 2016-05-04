@@ -1,15 +1,7 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name yapp
- * @description
- * # yapp
- *
- * Main module of the application.
- */
 angular
-  .module('yapp', ['ui.router','ngAnimate'])
+  .module('yapp', ['ui.router','ngAnimate', "firebase"])
   .config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.when('/dashboard', '/dashboard/overview');
