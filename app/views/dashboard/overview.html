@@ -25,6 +25,16 @@
 			<p>
 				<a class="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a>
 			</p>
+
+			<div ng-controller="ChatCtrl">
+		      <ul class="chatbox">
+		        <li ng-repeat="message in messages">{{ message.from }}: {{ message.content }}</li>
+		      </ul>
+		      <form ng-submit="addMessage()">
+		        <input type="text" ng-model="message">
+		        <input type="submit" value="Add Message">
+		      </form>
+		    </div>
 		</div>
 	</div>
 </div>
